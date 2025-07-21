@@ -1,0 +1,22 @@
+name: rhino-sim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - astropy>=6.0
+  - astropy-healpix>=1.0.2
+  - h5py
+  - ipykernel
+  - jupyter
+  - numpy>=1.23
+  - pip
+  - pyuvdata>=3.1.2
+  - pyyaml>=5.4.1
+  - scipy>=1.9
+  - setuptools_scm>=8.1
+  - pip:
+    - matvis
+    - pygdsm
+    - pyradiosky>=1.1.0
+    - git+https://github.com/HERA-Team/hera_sim.git@v4.3.2
+    #- hera_sim>=4.3.2
